@@ -1,7 +1,7 @@
 body {
     box-sizing: border-box;
     font-family: 'Source Sans Pro', sans-serif;
-    background-color: #f5eaea;
+    background-color: #f8f8f8;
 }
 
 header {
@@ -9,9 +9,9 @@ header {
 }
 
 header h1 {
-    color: #4d4646;
+    color: #101820;
 }
 
 header h3 {
-    color: #7fcd91;
+    color:  #FFB612;
 }
