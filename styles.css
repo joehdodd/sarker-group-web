@@ -1,0 +1,17 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #f5eaea;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    color: #4d4646;
+}
+
+header h3 {
+    color: #7fcd91;
+}
