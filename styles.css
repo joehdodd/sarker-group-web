@@ -1,12 +1,31 @@
+:root {
+  --main-black-color: #313131;
+  --main-grey-color: #f3f3f3;
+  --alt-grey-color: #cecece;
+  --main-white-color: #fff;
+  --main-blue-color: #15487c;
+}
+
 body {
   box-sizing: border-box;
-  font-family: "Gelasio", serif;
-  background-color: #f8f8f8;
+  font-family: "Lato", sans-serif;
+  background-color: var(--main-grey-color);
   margin: 0;
 }
 
+header {
+  padding: 8px;
+  background-color: var(--main-white-color);
+  border-bottom: 1px solid var(--alt-grey-color);
+}
+
+header h1 {
+  font-size: 32px;
+  color: var(--main-blue-color);
+}
+
 main {
-  padding: 25% 0;
+    padding: 8px;
 }
 
 .container {
@@ -18,7 +37,7 @@ main {
 }
 
 .card {
-  padding: 8px;
+  padding: 0px 8px;
   max-width: 100%;
 }
 
@@ -26,21 +45,17 @@ main {
   align-self: start;
 }
 
-.border-right {
-  border-right: 1px solid #313131;
-}
-
-.main-title {
+.main-title-text {
   font-size: 82px;
   color: #313131;
 }
 
 .card h3 {
-  color: #15487c;
+  color: var(--main-black-color);
   margin-top: 0px;
 }
 
 .card span {
-    font-size: 12px;
-    color: #313131;
+  font-size: 12px;
+  color: var(--main-blue-color);
 }
