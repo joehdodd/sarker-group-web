@@ -30,6 +30,7 @@ main {
 
 main h3 {
   color: var(--main-blue-color);
+  text-decoration: underline;
 }
 
 .container {
