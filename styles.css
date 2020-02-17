@@ -14,13 +14,17 @@ body {
 }
 
 header {
-  padding: 8px;
   background-color: var(--main-white-color);
   border-bottom: 1px solid var(--alt-grey-color);
 }
 
-header h1 {
+nav {
+  padding: 8px;
+}
+
+nav h1 {
   font-size: 32px;
+  margin: 0px;
   color: var(--main-blue-color);
 }
 
@@ -31,6 +35,25 @@ main {
 main h3 {
   color: var(--main-blue-color);
   text-decoration: underline;
+}
+
+.hero-wrapper {
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url("./assets/hero-img.jpg");
+  background-blend-mode: color;
+  background-size: cover;
+  height: 400px;
+  align-items: center;
+  display: grid;
+  justify-content: center;
+  width: 100%;
+}
+
+.hero-container {
+  color: var(--main-white-color);
+  display: grid;
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
@@ -63,4 +86,8 @@ main h3 {
 .card span {
   font-size: 12px;
   color: var(--main-blue-color);
+}
+
+footer {
+  padding: 8px;
 }
