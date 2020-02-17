@@ -28,6 +28,10 @@ main {
     padding: 8px;
 }
 
+main h3 {
+  color: var(--main-blue-color);
+}
+
 .container {
   display: grid;
   grid-template-columns: 2fr 1fr;
