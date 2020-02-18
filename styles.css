@@ -29,7 +29,7 @@ nav {
   padding: 8px;
   display: grid;
   align-items: center;
-  height: 50px;
+  min-height: 50px;
 }
 
 nav h1 {
