@@ -6,7 +6,7 @@
   --main-blue-color: #15487c;
 }
 
-/* BODY IS display: flex; DIRECT CHILDREN NEED flex: 1; */ 
+/* BODY IS display: flex; DIRECT CHILDREN NEED flex: 1; */
 body {
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
@@ -16,7 +16,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-
 
 /* header DIRECT CHILD OF body */
 header {
@@ -38,11 +37,22 @@ nav h1 {
   color: var(--main-blue-color);
 }
 
+.header-logo-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo-img {
+  max-width: 100px;
+  border-right: 2px solid var(--main-blue-color);
+  padding-right: 4px;
+  margin-right: 4px;
+}
 
 /* main DIRECT CHILD OF body */
 main {
   padding: 8px;
-  flex: 1
+  flex: 1;
 }
 
 main h3 {
@@ -106,7 +116,6 @@ main h3 {
   font-size: 12px;
   color: var(--main-blue-color);
 }
-
 
 /* footer DIRECT CHILD OF body */
 footer {
