@@ -60,6 +60,10 @@ main h3 {
   text-decoration: underline;
 }
 
+main hr {
+  border: 1px solid var(--main-blue-color);
+}
+
 .hero-wrapper {
   background-color: rgba(0, 0, 0, 0.5);
   background-image: url("./assets/hero-img.jpg");
@@ -115,6 +119,15 @@ main h3 {
 .card span {
   font-size: 12px;
   color: var(--main-blue-color);
+}
+
+.team-openings-link {
+  text-decoration: none;
+  color: #fff;
+  background-color: var(--main-blue-color);
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 /* footer DIRECT CHILD OF body */
