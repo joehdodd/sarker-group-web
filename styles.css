@@ -121,6 +121,12 @@ main hr {
   color: var(--main-blue-color);
 }
 
+.team-openings-container { 
+  display: grid;
+  grid-auto-flow: row;
+  justify-content: flex-start;
+}
+
 .team-openings-link {
   text-decoration: none;
   color: #fff;
@@ -128,6 +134,8 @@ main hr {
   padding: 8px;
   border-radius: 4px;
   cursor: pointer;
+  width: 50%;
+  margin: 2px 8px 2px 0px;
 }
 
 /* footer DIRECT CHILD OF body */
