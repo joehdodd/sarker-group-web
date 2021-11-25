@@ -24,27 +24,20 @@ header {
   flex: 1;
 }
 
-nav {
-  padding: 8px;
-  display: grid;
-  align-items: center;
-  min-height: 50px;
-}
-
-nav h1 {
-  font-size: 32px;
-  margin: 0px;
-  color: var(--main-blue-color);
+section {
+  justify-self: center;
 }
 
 .header-logo-title-container {
+  padding: 8px;
   display: flex;
   align-items: center;
+  color: #fff;
 }
 
 .header-logo-img {
   max-width: 100px;
-  border-right: 2px solid var(--main-blue-color);
+  border-right: 2px solid var(--main-white-color);
   padding-right: 4px;
   margin-right: 4px;
 }
@@ -52,12 +45,11 @@ nav h1 {
 /* main DIRECT CHILD OF body */
 main {
   padding: 8px;
-  flex: 1;
 }
 
 main h3 {
   color: var(--main-blue-color);
-  text-decoration: underline;
+  font-size: 32px;
 }
 
 main hr {
@@ -69,7 +61,6 @@ main hr {
   background-image: url("./assets/hero-img.jpg");
   background-blend-mode: color;
   background-size: cover;
-  height: 400px;
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
@@ -121,10 +112,17 @@ main hr {
   color: var(--main-blue-color);
 }
 
-.team-openings-container { 
+.team-openings-container {
   display: grid;
   grid-auto-flow: row;
-  justify-content: flex-start;
+  /* justify-content: flex-start; */
+}
+
+.team-openings-links {
+  display: grid;
+  grid-auto-flow: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .team-openings-link {
@@ -134,8 +132,12 @@ main hr {
   padding: 8px;
   border-radius: 4px;
   cursor: pointer;
-  width: 50%;
   margin: 2px 8px 2px 0px;
+}
+
+.contact-us-container {
+  display: grid;
+  grid-auto-flow: row;
 }
 
 /* footer DIRECT CHILD OF body */
@@ -153,4 +155,22 @@ footer {
   justify-content: start;
   grid-gap: 2px;
   align-self: end;
+}
+
+@media screen and (min-width: 768px) {
+  .header-logo-title-container {
+    padding: 0px 15%;
+  }
+
+  .hero-wrapper {
+    height: 400px;
+  }
+
+  main {
+    padding: 0px 15%;
+  }
+
+  .contact-us-container {
+    grid-auto-flow: column;
+  }
 }
