@@ -1,7 +1,7 @@
 :root {
   --main-black-color: #313131;
   --main-grey-color: #f3f3f3;
-  --alt-grey-color: #cecece;
+  --alt-grey-color: #f8f8f8;
   --main-white-color: #fff;
   --main-blue-color: #15487c;
 }
@@ -26,6 +26,7 @@ header {
 
 section {
   justify-self: center;
+  padding-top: 4rem;
 }
 
 section p {
@@ -41,6 +42,10 @@ section p {
 
 .section-square {
   flex: 1;
+}
+
+.section-square h3 {
+  margin-top: 0;
 }
 
 .section-img {
@@ -59,8 +64,8 @@ section p {
 .header-logo-img {
   max-width: 100px;
   border-right: 2px solid var(--main-white-color);
-  padding-right: 4px;
-  margin-right: 4px;
+  padding-right: 16px;
+  margin-right: 16px;
 }
 
 /* main DIRECT CHILD OF body */
@@ -68,7 +73,8 @@ main {
   padding: 8px;
 }
 
-main h3, footer h3 {
+main h3,
+footer h3 {
   font-size: 32px;
 }
 
@@ -200,7 +206,15 @@ footer a {
   }
 
   main {
-    padding: 0px 15%;
+    padding: 0px;
+  }
+
+  section {
+    padding: 4rem 15%;
+  }
+
+  .section-offset {
+    background-color: var(--alt-grey-color);
   }
 
   footer {
