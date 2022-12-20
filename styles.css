@@ -40,6 +40,10 @@ section p {
   gap: 2rem;
 }
 
+.column-reverse {
+  flex-direction: column-reverse;
+}
+
 .section-square {
   flex: 1;
 }
@@ -215,6 +219,10 @@ footer a {
 
   .section-offset {
     background-color: var(--alt-grey-color);
+  }
+
+  .column-reverse {
+    flex-direction: column;
   }
 
   footer {
